@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue'
+import { withBase } from 'vitepress'
 import { data as lessons } from '../../data/lessons.data.ts'
 
 const searchQuery = ref('')
@@ -73,7 +74,7 @@ const filteredLessons = computed(() => {
       <a 
         v-for="item in filteredLessons" 
         :key="item.url" 
-        :href="item.url" 
+        :href="withBase(item.url)" 
         class="lesson-card"
       >
         <div class="card-header">
