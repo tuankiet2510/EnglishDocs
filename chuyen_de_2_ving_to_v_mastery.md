@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 2: DANH ĐỘNG TỪ & ĐỘNG TỪ NGUYÊN MẪU (GERUNDS & INFINITIVES: V-ING & TO-V)
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Trong tiếng Anh, khi hai động từ đứng liền nhau, động từ thứ hai phải biến đổi hình thái theo bản chất logic của hành động:
 > - **`TO-V` (Infinitive):** Hướng về **Tương lai**, **Mục đích**, kế hoạch, hoặc hành động **chưa xảy ra**.
 > - **`V-ING` (Gerund):** Hướng về **Trải nghiệm**, **Sự thật**, thói quen, hoặc hành động **đã/đang diễn ra**.
@@ -10,14 +10,22 @@
 ## I. SƠ ĐỒ THUẬT TOÁN PHÂN LOẠI DẠNG ĐỘNG TỪ TRONG 3 GIÂY
 
 ```mermaid
-flowchart TD
-    A[Gặp câu hỏi dạng: V1 + V2?] --> B{V1 là động từ nào?}
-    B --> C1[Nhóm bắt buộc V-ING: enjoy, avoid, mind, practice, suggest, finish...]
-    B --> C2[Nhóm bắt buộc TO-V: decide, hope, promise, refuse, afford, plan...]
-    B --> C3[Nhóm V1 + O + TO-V: ask, tell, advise, allow, warn, invite...]
-    B --> C4{Nhóm 6 ĐỘNG TỪ ĐỔI NGHĨA KINH ĐIỂN?}
-    C4 -- Hành động ĐÃ XẢY RA ở QK --> D1[Chọn V-ING]
-    C4 -- Hành động CHƯA XẢY RA / BỔN PHẬN --> D2[Chọn TO-V]
+flowchart LR
+    A(["🎯 V-ing hay To-V?"]) --> B["Nhóm 1: Bắt buộc V-ING<br/>enjoy, avoid, mind, practice, suggest..."]
+    A --> C["Nhóm 2: Bắt buộc TO-V<br/>decide, hope, promise, refuse, plan..."]
+    A --> D["Nhóm 3: V + Tân ngữ + TO-V<br/>ask, tell, advise, allow, encourage..."]
+    A --> E["Nhóm 4: 6 Cặp Đổi nghĩa<br/>remember, forget, stop, regret..."]
+    
+    E --> E1["Đã xảy ra trong QK ➔ V-ING"]
+    E --> E2["Bổn phận / Chưa xảy ra ➔ TO-V"]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,font-weight:bold
+    style C fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af,font-weight:bold
+    style D fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f,font-weight:bold
+    style E fill:#ede9fe,stroke:#7c3aed,stroke-width:2px,color:#4c1d95,font-weight:bold
+    style E1 fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
+    style E2 fill:#eff6ff,stroke:#3b82f6,stroke-width:1.5px,color:#1e40af
 ```
 
 ---
@@ -33,7 +41,7 @@ flowchart TD
 
 ---
 
-## III. 6 CẶP ĐỘNG TỪ ĐỔI NGHĨA KINH ĐIỂN (CHIẾM 80% BẪY ĐỀ THI)
+## III. 6 CẶP ĐỘNG TỪ ĐỔI NGHĨA KINH ĐIỂN (CHIẾM 80% LƯU Ý KHI LÀM BÀI THI)
 
 > [!RED] **QUY TẮC "QUÁ KHỨ DÙNG V-ING, TƯƠNG LAI/BỔN PHẬN DÙNG TO-V":**
 > Đây là dạng bài phân loại học sinh giỏi hay gặp nhất trong đề thi tuyển sinh lớp 10. Hãy đối chiếu thật kỹ nghĩa ngữ cảnh trước khi chọn:

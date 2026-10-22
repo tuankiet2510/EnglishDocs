@@ -1,6 +1,6 @@
 # CẨM NANG 10 CẤU TRÚC BIẾN ĐỔI CÂU (SENTENCE TRANSFORMATION MASTERY) ÔN THI VÀO 10
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Biến đổi câu (*Sentence Transformation*) là kỹ thuật **giữ nguyên 100% nghĩa gốc (Semantic Equivalence)** nhưng **thay đổi cấu trúc ngữ pháp (Syntactic Structure)** theo từ gợi ý đầu câu. Chìa khóa ăn điểm tuyệt đối nằm ở 2 thao tác: **Đổi từ loại (Mệnh đề ↔ Cụm danh từ/V-ing)** và **Lùi thì động từ**.
 
 ---
@@ -9,19 +9,21 @@
 
 ```mermaid
 flowchart LR
-    A[Đọc Từ Gợi Ý Đầu Câu] --> B{Nhóm Lùi Thì Động Từ}
-    A --> C{Nhóm Rút Mệnh Đề -> Cụm Từ}
-    A --> D{Nhóm Đổi Cấu Trúc Cố Định}
-    B --> B1[If / Unless: Trái thực tế + Lùi 1 thì]
-    B --> B2[Wish / If only: Trái thực tế + Lùi 1 thì]
-    B --> B3[Reported Speech: Đổi ngôi + Lùi thì + Đổi trạng từ]
-    C --> C1[Although + S + V -> In spite of / Despite + N/V-ing]
-    C --> C2[Because + S + V -> Because of / Due to + N/V-ing]
-    C --> C3[So/Such...that -> Too...to / Enough...to]
-    D --> D1[Passive Voice: O + be + V3/ed + by S]
-    D --> D2[Suggest + V-ing / Suggest that S + should V]
-    D --> D3[Spend time V-ing <-> It takes time to-V]
-    D --> D4[So sánh hơn <-> So sánh không bằng / So sánh nhất]
+    A(["🎯 10 Cấu trúc Biến đổi câu"]) --> B["Nhóm 1: LÙI THÌ"]
+    A --> C["Nhóm 2: RÚT GỌN"]
+    A --> D["Nhóm 3: CẶP CẤU TRÚC"]
+    
+    B --> B1["Câu điều kiện & Unless<br/>Câu ước Wish / If only"]
+    C --> C1["Although ➔ In spite of<br/>Because ➔ Because of"]
+    D --> D1["Too...to ➔ So...that<br/>Prefer ➔ Would rather"]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af,font-weight:bold
+    style C fill:#f0fdf4,stroke:#16a34a,stroke-width:2px,color:#166534,font-weight:bold
+    style D fill:#fefce8,stroke:#ca8a04,stroke-width:2px,color:#854d0e,font-weight:bold
+    style B1 fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
+    style C1 fill:#ede9fe,stroke:#7c3aed,stroke-width:1.5px,color:#4c1d95
+    style D1 fill:#fee2e2,stroke:#dc2626,stroke-width:1.5px,color:#7f1d1d
 ```
 
 ---
@@ -93,7 +95,7 @@ flowchart LR
 | **3. Câu hỏi Wh-Questions** | `S + asked + O + Wh-word + S + V(lùi thì)` *(Bỏ đảo ngữ trợ động từ!)* | *"Where **did** you **go** yesterday?" Tom asked Mary.*<br>➔ *Tom asked Mary where she **had gone** the day before.* |
 | **4. Câu mệnh lệnh / Yêu cầu** | `S + told / asked + O + (NOT) + to V-inf` | *"**Don't open** the door!" the mother said to her son.*<br>➔ *The mother told her son **not to open** the door.* |
 
-> [!RED] **BẪY ĐỀ THI VÀO 10 (GIỮ NGUYÊN ĐẢO NGỮ TRONG CÂU HỎI GIÁN TIẾP):**
+> [!RED] **LƯU Ý KHI LÀM BÀI THI VÀO 10 (GIỮ NGUYÊN ĐẢO NGỮ TRONG CÂU HỎI GIÁN TIẾP):**
 > Khi đã chuyển sang câu tường thuật, câu hỏi biến thành mệnh đề phụ khẳng định nên **tuyệt đối không đảo `was/were/did` lên trước chủ ngữ**.
 > - ❌ **Sai:** *He asked me where **was I** going.*
 > - ✅ **Đúng:** *He asked me where **I was** going.*

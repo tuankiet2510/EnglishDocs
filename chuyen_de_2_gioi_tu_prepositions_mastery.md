@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 2: CẨM NANG GIỚI TỪ (PREPOSITIONS: TIME, PLACE & COLLOCATIONS) ÔN THI VÀO 10
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Giới từ (Preposition) là từ nối định vị mối quan hệ giữa các thành phần trong câu theo 3 chiều kích: **Thời gian (Time)**, **Không gian / Nơi chốn (Place)** và **Sự kết hợp cố định (Collocations)**.
 > Nắm vững **Kim tự tháp tam giác IN - ON - AT** (đi từ Rộng lớn ➔ Cụ thể ➔ Chính xác tuyệt đối) sẽ giúp bạn giải quyết 90% câu hỏi giới từ thời gian và nơi chốn trong đề thi vào 10.
 

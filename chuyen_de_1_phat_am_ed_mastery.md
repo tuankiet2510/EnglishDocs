@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 1: CÁCH PHÁT ÂM ĐUÔI "ED" BẰNG CÂU THẦN CHÚ & NGOẠI LỆ TÍNH TỪ
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Trong tiếng Anh, đuôi **`-ed`** chỉ là hình thái chữ viết cho thì Quá khứ và Phân từ 2. Âm thanh thực tế phát ra phụ thuộc vào **Âm cuối cùng (Ending Sound)** của động từ trước khi thêm -ed:
 > - **Âm rung (Hữu thanh):** Cổ họng rung ➔ Đuôi -ed phát âm là **/d/** (cùng tính chất rung).
 > - **Âm không rung (Vô thanh):** Cổ họng không rung ➔ Đuôi -ed phát âm là **/t/** (cùng tính chất vô thanh).
@@ -11,12 +11,17 @@
 ## I. SƠ ĐỒ CÂU THẦN CHÚ PHÁT ÂM ĐUÔI -ED TRONG 3 GIÂY
 
 ```mermaid
-flowchart TD
-    A[Động từ thêm đuôi -ED] --> B{Âm cuối là /t/ hoặc /d/?}
-    B -- Đúng --> C[Đọc là /ɪd/: Thần chú TIỀN ĐÔ]
-    B -- Không --> D{Âm cuối là /k, s, ʃ, p, tʃ, f/?}
-    D -- Đúng --> E[Đọc là /t/: Thần chú KHI SANG SÔNG PHẢI CHỜ PHÀ]
-    D -- Không --> F[Đọc là /d/: CÁC ÂM CÒN LẠI]
+flowchart LR
+    A(["🎯 Đuôi -ED"]) --> B["Âm cuối từ"]
+    B --> C["✨ Đọc là /ɪd/<br/>Tận cùng: /t/, /d/<br/>Thần chú: TIỀN ĐÔ"]
+    B --> D["⚡ Đọc là /t/<br/>Vô thanh: /k, s, ʃ, p, tʃ, f/<br/>KHI SANG SÔNG PHẢI CHỜ PHÀ"]
+    B --> E["🌱 Đọc là /d/<br/>Hữu thanh & Nguyên âm<br/>CÁC ÂM CÒN LẠI"]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a,font-weight:bold
+    style C fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,font-weight:bold
+    style D fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f,font-weight:bold
+    style E fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af,font-weight:bold
 ```
 
 ---
@@ -38,7 +43,7 @@ flowchart TD
 
 ### 2. Quy tắc 2: Phát âm là `/t/` (Thần chú: "KHI SANG SÔNG PHẢI CHỜ PHÀ")
 - **Dấu hiệu:** Động từ có âm kết thúc là các âm vô thanh **/k, s, ʃ, p, tʃ, f/** (Chữ cái thường gặp: *k, c, p, s, ss, x, sh, ch, gh, ph, ce*).
-- **Thần chú ghi nhớ độc quyền:**
+- **Mẹo ghi nhớ nhanh:**
   > 💡 **"KHI SANG SÔNG PHẢI CHỜ PHÀ"**
   > (hoặc: **"Chính Phủ Phát Sách Không Thèm Share"**)
   >

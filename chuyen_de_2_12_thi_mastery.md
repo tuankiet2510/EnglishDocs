@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 2: HỆ THỐNG 12 THÌ, MA TRẬN SO SÁNH & PHỐI HỢP THÌ TRỌNG TÂM ÔN THI VÀO 10
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Tiếng Việt dùng từ chỉ thời gian (*đã, đang, sẽ*) đặt trước động từ nguyên thể, còn tiếng Anh **biến đổi trực tiếp hình thái của động từ (V)** theo 2 trục: **Thời gian (Time)** (Quá khứ - Hiện tại - Tương lai) và **Tính chất hành động (Aspect)** (Đơn - Tiếp diễn - Hoàn thành).
 
 ---
@@ -25,14 +25,19 @@ QUÁ KHỨ (PAST)                        HIỆN TẠI (PRESENT)                 
 ### 2. Sơ đồ thuật toán chọn nhanh Thì trong đề thi (Mermaid Flowchart)
 
 ```mermaid
-flowchart TD
-    A[Đọc câu hỏi chia Động từ] --> B{Có mốc thời gian cố định ở QK?<br/>yesterday, ago, in 2020, last...}
-    B -- Có --> C[Chia QUÁ KHỨ ĐƠN: V2/ed]
-    B -- Không --> D{Có since, for, just, yet, already,<br/>so far, recently, many times?}
-    D -- Có --> E[Chia HIỆN TẠI HOÀN THÀNH:<br/>have/has + V3/ed]
-    D -- Không --> F{Đang diễn ra ngay lúc nói?<br/>now, at the moment, Look!, Listen!}
-    F -- Có --> G[Chia HIỆN TẠI TIẾP DIỄN:<br/>am/is/are + V-ing]
-    F -- Không --> H[Xét quy luật/lịch trình: HIỆN TẠI ĐƠN<br/>Hoặc dự đoán/hứa hẹn: TƯƠNG LAI ĐƠN]
+flowchart LR
+    A(["🎯 Chọn nhanh Thì Động từ"]) --> B["Dấu hiệu thời gian"]
+    B --> C["✨ QUÁ KHỨ ĐƠN<br/>yesterday, ago, last, in 2020"]
+    B --> D["⚡ HIỆN TẠI HOÀN THÀNH<br/>since, for, already, yet, so far"]
+    B --> E["🚀 TƯƠNG LAI<br/>tomorrow, next, in the future"]
+    B --> F["🌱 HIỆN TẠI ĐƠN<br/>always, usually, every day"]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a,font-weight:bold
+    style C fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af,font-weight:bold
+    style D fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,font-weight:bold
+    style E fill:#ede9fe,stroke:#7c3aed,stroke-width:2px,color:#4c1d95,font-weight:bold
+    style F fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f,font-weight:bold
 ```
 
 ---
@@ -147,9 +152,9 @@ flowchart TD
 
 +++ 👉 BẤM ĐỂ XEM ĐÁP ÁN & GIẢI THÍCH CHI TIẾT
 **Câu 1:** Chọn **B (`is coming`)** — Có dấu hiệu cảm thán `Look!` ở đầu câu chỉ hành động đang diễn ra ngay trước mắt lúc nói.
-**Câu 2:** Chọn **C (`has lived`)** — Cấu trúc kinh điển: `S + have/has + V3/ed + since + S + V2/ed` (`since I was born`).
+**Câu 2:** Chọn **C (`has lived`)** — Cấu trúc thông dụng: `S + have/has + V3/ed + since + S + V2/ed` (`since I was born`).
 **Câu 3:** Chọn **B (`were having`)** — Hành động đang diễn ra trong quá khứ (`While we were having dinner`) thì hành động khác cắt ngang (`went out`).
-**Câu 4:** Chọn **A (`leaves`)** — Bẫy đề thi! Dù có `tomorrow morning`, nhưng lịch trình tàu xe/máy bay cố định (`schedule`) luôn chia **Hiện tại đơn**.
+**Câu 4:** Chọn **A (`leaves`)** — Lưu ý khi làm bài thi! Dù có `tomorrow morning`, nhưng lịch trình tàu xe/máy bay cố định (`schedule`) luôn chia **Hiện tại đơn**.
 **Câu 5:** Chọn **D (`had destroyed`)** — Công thức `By the time + S + V2/ed (arrived), S + had + V3/ed` (việc cháy rụi xảy ra trước khi lính cứu hỏa tới).
 **Câu 6:** Chọn **C (`get`)** — Sau liên từ chỉ thời gian `as soon as`, tuyệt đối không dùng `will`, phải lùi về **Hiện tại đơn** (`get`).
 **Câu 7:** `Nam has worked (hoặc has been working) as a systems administrator for three years.` (Đổi `began + V-ing ... ago` $\rightarrow$ `has + V3/ed + for ...`).

@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 1: QUY TẮC TRỌNG ÂM TỪ (WORD STRESS MASTERY) & BỘ THẦN CHÚ TIẾNG VIỆT 5 GIÂY
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Trọng âm (Stress) là âm tiết được phát âm **TO HƠN, CAO HƠN và DÀI HƠN** các âm tiết còn lại trong từ.
 > 
 > 💡 **NGUYÊN TẮC VÀNG ĐỀ THI VÀO 10 (SỞ GD QUẢNG NGÃI & TOÀN QUỐC):**
@@ -13,15 +13,23 @@
 ## I. SƠ ĐỒ THUẬT TOÁN 3 BƯỚC XỬ LÝ TRỌNG ÂM ĐỀ THI VÀO 10
 
 ```mermaid
-flowchart TD
-    A[Từ vựng trong đề thi] --> B{Đếm số âm tiết: 2 âm hay 3 âm trở lên?}
-    B -- 2 Âm tiết --> C{Xác định Từ loại: Danh/Tính hay Động?}
-    C -- Danh từ / Tính từ --> D[Đánh ÂM 1: Thần chú DANH TÍNH NHẤT]
-    C -- Động từ --> E[Đánh ÂM 2: Thần chú ĐỘNG TỪ NHÌ]
-    B -- 3 Âm tiết trở lên --> F{Nhìn đuôi Hậu tố / Suffix}
-    F -- Đuôi ee, eer, ese, ique, ain --> G[Đè nặng chính đuôi đó]
-    F -- Đuôi ic, tion, sion, ity, ian, ious --> H[Lùi 1 bước về trước]
-    F -- Đuôi ate, fy, ise, ize, gy, phy --> I[Đếm lùi 3 âm từ dưới lên]
+flowchart LR
+    A(["🎯 Trọng âm từ"]) --> B["Từ 2 âm tiết"]
+    A --> C["Hậu tố đặc biệt"]
+    
+    B --> B1["✨ Danh từ / Tính từ ➔ ÂM 1<br/>Thần chú: DANH TÍNH NHẤT"]
+    B --> B2["⚡ Động từ ➔ ÂM 2<br/>Thần chú: ĐỘNG TỪ NHÌ"]
+    
+    C --> C1["Nhận trọng âm: -ee, -eer, -ese, -ique"]
+    C --> C2["Âm ngay trước nó: -tion, -sion, -ic, -ity"]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a,font-weight:bold
+    style C fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a,font-weight:bold
+    style B1 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,font-weight:bold
+    style B2 fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f,font-weight:bold
+    style C1 fill:#ede9fe,stroke:#7c3aed,stroke-width:2px,color:#4c1d95,font-weight:bold
+    style C2 fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af,font-weight:bold
 ```
 
 ---

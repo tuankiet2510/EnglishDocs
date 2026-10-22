@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 1: CÁCH PHÁT ÂM "TH" CHUẨN XÁC (/θ/ VS. /ð/) ÔN THI VÀO 10
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Cặp âm `"th"` là nỗi ám ảnh lớn nhất của học sinh Việt Nam vì tiếng Việt **hoàn toàn không có âm kẹp lưỡi**. Cả hai âm đều có cùng vị trí phát âm: **Đặt đầu lưỡi giữa hai hàm răng và đẩy luồng hơi ra ngoài qua kẽ răng**:
 > - **Âm vô thanh `/θ/`:** Dây thanh quản **KHÔNG RUNG** (Chỉ có luồng gió thổi xì ra).
 > - **Âm hữu thanh `/ð/`:** Dây thanh quản **RUNG MẠNH** (Có tiếng rung "dừ... dừ...").
@@ -10,12 +10,15 @@
 ## I. SƠ ĐỒ THUẬT TOÁN PHÂN LOẠI PHÁT ÂM "TH" TRONG 3 GIÂY
 
 ```mermaid
-flowchart TD
-    A[Từ có chứa chữ cái TH] --> B{Là Đại từ / Từ chỉ định / Liên từ?}
-    B -- Đúng --> C[Phát âm là HỮU THANH /ð/: this, that, they, there, though...]
-    B -- Không --> D{Là Động từ tận cùng đuôi -the?}
-    D -- Đúng --> E[Phát âm là HỮU THANH /ð/: breathe, bathe, clothe...]
-    D -- Không --> F[Hầu hết phát âm là VÔ THANH /θ/: think, thank, thin, health, tooth...]
+flowchart LR
+    A(["🎯 Chữ cái 'TH'"]) --> B["Nhóm từ vựng"]
+    B --> C["✨ HỮU THANH /ð/<br/>Đại từ: this, that, they...<br/>Động từ đuôi -the: breathe..."]
+    B --> D["⚡ VÔ THANH /θ/<br/>Số đếm: three, third, tenth...<br/>Từ nội dung: think, tooth, math..."]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a,font-weight:bold
+    style C fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,font-weight:bold
+    style D fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f,font-weight:bold
 ```
 
 ---
@@ -29,7 +32,7 @@ flowchart TD
 
 ---
 
-## III. 3 BẪY ĐỀ THI TUYỂN SINH VÀO 10 CẦN TRÁNH (VIETLISH TRAPS)
+## III. 3 LƯU Ý KHI LÀM BÀI THI TUYỂN SINH VÀO 10 CẦN TRÁNH (VIETLISH TRAPS)
 
 > [!RED] **BẪY 1: CẶP TỪ DANH TỪ (/θ/) VS. ĐỘNG TỪ (/ð/)**
 > Đề thi rất hay gài bẫy các cặp từ có chữ cái tương tự nhau nhưng đuôi danh từ đọc là `/θ/`, còn đuôi động từ đọc là `/ð/`:

@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 1: PHÂN BIỆT PHÁT ÂM NGUYÊN ÂM /æ/ VÀ /e/ ÔN THI VÀO 10
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Cặp nguyên âm `/æ/` (A bẹt) và `/e/` (E ngắn) là điểm khác biệt cốt tử trong ngữ âm tiếng Anh. Sự khác nhau nằm ở **Độ mở của khuôn miệng và độ hạ của xương hàm dưới**:
 > - **Âm `/e/` (E ngắn):** Miệng mở vừa phải, khóe môi kéo nhẹ sang hai bên như cười mỉm, âm dứt khoát: *pen, bed, men*.
 > - **Âm `/æ/` (A bẹt):** Miệng mở rất rộng cả chiều dọc lẫn chiều ngang, hạ thấp xương hàm dưới, lưỡi ép phẳng, âm vang pha trộn giữa "A" và "E": *pan, bad, man*.
@@ -25,7 +25,7 @@
 
 > [!GREEN] **KHI NÀO PHÁT ÂM LÀ `/e/`?**
 > 1. Chữ cái `"e"` trong từ có 1 âm tiết, đứng giữa các phụ âm: *pen, ten, red, bell, smell, test, help, spend*.
-> 2. Chữ cái `"ea"` trong một số từ đặc biệt (100% bẫy đề thi): *head, heavy, health, breath, dead, weather, leather, ready, breakfast*.
+> 2. Chữ cái `"ea"` trong một số từ đặc biệt (100% lưu ý khi làm bài thi): *head, heavy, health, breath, dead, weather, leather, ready, breakfast*.
 
 > [!GREEN] **KHI NÀO PHÁT ÂM LÀ `/æ/`?**
 > 1. Chữ cái `"a"` trong từ có 1 âm tiết, đứng giữa các phụ âm: *cat, hat, fat, bag, map, fan, hand, stand, black, plant*.

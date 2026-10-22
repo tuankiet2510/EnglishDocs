@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 2: CÂU HỎI ĐUÔI & TRỢ ĐỘNG TỪ (QUESTION TAGS MASTERY)
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Câu hỏi đuôi (Tag Question) là một câu hỏi cực ngắn đính vào cuối câu trần thuật để **xác minh thông tin** hoặc **tìm kiếm sự đồng thuận**. Cấu trúc luôn tuân thủ nguyên tắc vàng **"Trái Dấu"**:
 > `Khẳng định (+) ➔ Đuôi Phủ định (-)`  |  `Phủ định (-) ➔ Đuôi Khẳng định (+)`
 > Công thức: `[Mệnh đề trần thuật], [Trợ động từ (+ not)] + [Đại từ nhân xưng]?`
@@ -10,13 +10,17 @@
 ## I. SƠ ĐỒ THUẬT TOÁN 3 BƯỚC TẠO CÂU HỎI ĐUÔI
 
 ```mermaid
-flowchart TD
-    A[Xác định Mệnh đề chính] --> B{Mệnh đề là Khẳng định (+) hay Phủ định (-)?}
-    B -- Khẳng định (+) --> C1[Đuôi phải là PHỦ ĐỊNH (-): trợ động từ + n't]
-    B -- Phủ định (-) --> C2[Đuôi phải là KHẲNG ĐỊNH (+): trợ động từ giữ nguyên]
-    C1 --> D[Bước 2: Tìm đúng Trợ động từ theo THÌ của câu]
-    C2 --> D
-    D --> E[Bước 3: Quy đổi Chủ ngữ thành 1 trong 7 Đại từ: I, you, we, they, he, she, it]
+flowchart LR
+    A(["🎯 Câu hỏi đuôi"]) --> B["Thể Mệnh đề chính"]
+    B --> C["✨ Vế trước KHẲNG ĐỊNH (+)<br/>➔ Đuôi PHỦ ĐỊNH (-)<br/>He is tall, isn't he?"]
+    B --> D["⚡ Vế trước PHỦ ĐỊNH (-)<br/>➔ Đuôi KHẲNG ĐỊNH (+)<br/>She can't swim, can she?"]
+    A --> E["🔑 NGOẠI LỆ KINH ĐIỂN<br/>I am ➔ aren't I?<br/>Let's ➔ shall we?<br/>Mệnh lệnh ➔ will you?"]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a,font-weight:bold
+    style C fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,font-weight:bold
+    style D fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af,font-weight:bold
+    style E fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f,font-weight:bold
 ```
 
 ---
@@ -36,7 +40,7 @@ flowchart TD
 
 ## III. 8 BẪY ĐẶC BIỆT CHẮC CHẮN GÀI TRONG ĐỀ THI VÀO 10
 
-> [!RED] **BẪY 1: CÂU CHỨA TỪ PHỦ ĐỊNH NGẦM (BẪY KINH ĐIỂN NHẤT):**
+> [!RED] **BẪY 1: CÂU CHỨA TỪ PHỦ ĐỊNH NGẦM (LỖI SAI THƯỜNG GẶP NHẤT):**
 > Nếu mệnh đề chính chứa các từ phủ định hoặc bán phủ định: **`never, seldom, rarely, hardly, scarcely, little, few, neither, no, nobody, nothing`**, thì câu đó **MANG NGHĨA PHỦ ĐỊNH (-)**.
 > ➔ Phần đuôi **BẮT BUỘC Ở DẠNG KHẲNG ĐỊNH (+)**!
 > - ❌ *Sai:* She **never** comes late, **doesn't she**?
@@ -92,7 +96,7 @@ flowchart TD
 **3. Đáp án B (shall we):** Cấu trúc rủ rê `Let's + V-inf` ➔ Phần câu hỏi đuôi luôn là `shall we`.
 **4. Đáp án A (does she):** Có trạng từ bán phủ định `hardly ever` (hầu như không bao giờ) ➔ Mệnh đề mang nghĩa phủ định, thì Hiện tại đơn của `travels` ➔ Đuôi khẳng định `does she`.
 **5. Đáp án A (did they):** `Nobody` mang nghĩa phủ định và được quy đổi thành đại từ `they`. Động từ `phoned` ở quá khứ đơn ➔ Đuôi khẳng định `did they`.
-**6. Đáp án B (aren't I):** Ngoại lệ kinh điển: `I am...` đi kèm với câu hỏi đuôi phủ định bắt buộc là `aren't I?`.
+**6. Đáp án B (aren't I):** Ngoại lệ thông dụng: `I am...` đi kèm với câu hỏi đuôi phủ định bắt buộc là `aren't I?`.
 **7. Đáp án C (will you):** Câu mệnh lệnh phủ định `Don't + V-inf` ➔ Câu hỏi đuôi luôn là `will you?`.
 **8. Đáp án B (did it):** `Nothing` mang nghĩa phủ định và quy đổi thành đại từ `it`. Động từ `went` ở quá khứ đơn ➔ Đuôi khẳng định `did it`.
 **9. Đáp án C (will he):** Cấu trúc `I don't think + S2 + will...`. Tính phủ định dồn vào mệnh đề sau `Tom will...` ➔ Đuôi chia theo Tom ở thể khẳng định `will he`.

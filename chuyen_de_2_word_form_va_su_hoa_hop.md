@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 2: CẤU TẠO TỪ (WORD FORM) & SỰ HÒA HỢP CHỦ - VỊ (SUBJECT-VERB AGREEMENT)
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > - **Cấu tạo từ (Word Form):** Tiếng Anh xây dựng nghĩa từ gốc từ (Root) thông qua **Tiền tố (Prefix - đổi nghĩa)** và **Hậu tố (Suffix - đổi từ loại N/V/Adj/Adv)**. Muốn làm đúng dạng này, bạn không cần tra từ điển hết mọi từ mà phải dùng kỹ thuật **Bắt mạch cú pháp (Syntax Check)** để xác định ô trống cần loại từ nào trước khi biến đổi.
 > - **Sự hòa hợp Chủ - Vị (Subject-Verb Agreement):** Động từ số ít hay số nhiều phụ thuộc vào **Chủ ngữ cốt lõi (Head Noun)**, tuyệt đối không bị đánh lừa bởi các thành phần phụ chêm xen (*along with, as well as, of...*).
 
@@ -9,13 +9,19 @@
 ## I. SƠ ĐỒ THUẬT TOÁN 3 BƯỚC BẮT MẠCH TỪ LOẠI (WORD FORM)
 
 ```mermaid
-flowchart TD
-    A[Gặp câu hỏi Word Form trong ngoặc] --> B[Bước 1: Quét trước & sau chỗ trống để xác định TỪ LOẠI]
-    B --> C{Cần Danh từ, Tính từ, Động từ hay Trạng từ?}
-    C -- Cần DANH TỪ --> D1[Xem xét: Số ít hay Số nhiều? Chỉ người hay Chỉ vật?]
-    C -- Cần TÍNH TỪ --> D2[Xem xét: Nghĩa tích cực hay tiêu cực? Cần tiền tố phủ định un/im/in/dis?]
-    C -- Cần TRẠNG TỪ --> D3[Thêm đuôi -ly vào tính từ. Cẩn thận tính từ có đuôi -ly!]
-    C -- Cần ĐỘNG TỪ --> D4[Xác định THÌ của câu & Hòa hợp với Chủ ngữ số ít/nhiều]
+flowchart LR
+    A(["🎯 Word Form 4 Bước"]) --> B["Xác định Từ loại cần điền"]
+    B --> C["✨ Cần DANH TỪ<br/>Xét: Số ít/nhiều? Người hay vật?"]
+    B --> D["⚡ Cần TÍNH TỪ<br/>Xét: Tích cực (+) hay Tiêu cực (-)?"]
+    B --> E["🚀 Cần TRẠNG TỪ<br/>Thường: Tính từ + ly (hard, fast...)"]
+    B --> F["🌱 Cần ĐỘNG TỪ<br/>Xét THÌ & Hòa hợp Chủ - Vị"]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a,font-weight:bold
+    style C fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,font-weight:bold
+    style D fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f,font-weight:bold
+    style E fill:#ede9fe,stroke:#7c3aed,stroke-width:2px,color:#4c1d95,font-weight:bold
+    style F fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d,font-weight:bold
 ```
 
 ---

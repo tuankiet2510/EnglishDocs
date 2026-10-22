@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 3: CẨM NANG 50 CỤM ĐỘNG TỪ (PHRASAL VERBS) TỦ ÔN THI VÀO 10
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Cụm động từ (Phrasal Verb) là sự kết hợp giữa một **Động từ gốc (Verb)** với một hoặc hai **Tiểu từ / Giới từ (Particle/Preposition)** để tạo ra một **nghĩa hoàn toàn mới**, khác hẳn nghĩa đen của từng từ đơn lẻ.
 > Thay vì học vẹt 2.300 cụm từ bất tận, 95% câu hỏi trong đề thi tuyển sinh vào 10 chỉ xoay quanh **9 động từ gốc quen thuộc**: `LOOK, GO, TAKE, TURN, GIVE, GET, PUT, RUN, BRING`.
 
@@ -9,14 +9,25 @@
 ## I. SƠ ĐỒ PHÂN NHÁNH 9 GỐC ĐỘNG TỪ TẠO NÊN 50 PHRASAL VERBS TỦ
 
 ```mermaid
-flowchart TD
-    A[PHRASAL VERBS ÔN THI VÀO 10] --> B[Nhóm Chăm sóc & Tìm kiếm: LOOK]
-    A --> C[Nhóm Hành động & Di chuyển: GO & RUN]
-    A --> D[Nhóm Nhận & Giống nhau: TAKE & GET]
-    A --> E[Nhóm Thiết bị & Âm lượng: TURN]
-    A --> F[Nhóm Mặc, Trì hoãn, Dập tắt: PUT]
-    A --> G[Nhóm Cho, Tặng, Từ bỏ: GIVE]
-    A --> H[Nhóm Nuôi dưỡng & Khám phá: BRING & OTHERS]
+flowchart LR
+    A(["🎯 8 Cụm Động từ Trọng tâm"]) --> B["1. LOOK: after, for, forward to"]
+    A --> C["2. GO: on, off, out"]
+    A --> D["3. TAKE: care of, off, after"]
+    A --> E["4. TURN: on/off, up/down"]
+    A --> F["5. PUT: on, off, out"]
+    A --> G["6. GIVE: up, away"]
+    A --> H["7. GET: on/off, over, along with"]
+    A --> I["8. RUN / BRING: run out of, bring up"]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#eff6ff,stroke:#3b82f6,stroke-width:1.5px,color:#1e40af
+    style C fill:#f0fdf4,stroke:#16a34a,stroke-width:1.5px,color:#166534
+    style D fill:#fefce8,stroke:#ca8a04,stroke-width:1.5px,color:#854d0e
+    style E fill:#ede9fe,stroke:#7c3aed,stroke-width:1.5px,color:#4c1d95
+    style F fill:#fee2e2,stroke:#dc2626,stroke-width:1.5px,color:#7f1d1d
+    style G fill:#fef3c7,stroke:#d97706,stroke-width:1.5px,color:#78350f
+    style H fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
+    style I fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a
 ```
 
 ---

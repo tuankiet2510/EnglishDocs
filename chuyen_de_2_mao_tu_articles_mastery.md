@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 2: CẨM NANG MẠO TỪ (ARTICLES: A, AN, THE & ZERO ARTICLE) ÔN THI VÀO 10
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Mạo từ (Articles) là chiếc **"nhãn dán xác định"** đặt trước danh từ để báo hiệu cho người nghe:
 > - **`A / AN` (Mạo từ bất định):** Danh từ này là **chung chung**, người nghe **chưa hề biết** đó là ai/cái gì.
 > - **`THE` (Mạo từ xác định):** Cả người nói và người nghe **đều biết rõ 100%** danh từ đó là gì.
@@ -11,21 +11,27 @@
 ## I. SƠ ĐỒ THUẬT TOÁN 3 BƯỚC CHỌN MẠO TỪ TRONG 3 GIÂY
 
 ```mermaid
-flowchart TD
-    A[Xét Danh Từ Cần Điền Mạo Từ] --> B{Đã được xác định rõ hoặc là duy nhất?}
-    B -- Đúng --> C[Dùng THE]
-    B -- Không --> D{Danh từ số ít đếm được?}
-    D -- Đúng --> E{Phát âm bắt đầu bằng NGUYÊN ÂM?}
-    E -- Đúng (u-e-o-a-i) --> F[Dùng AN: an hour, an apple...]
-    E -- Phụ âm --> G[Dùng A: a book, a university...]
-    D -- Số nhiều hoặc Không đếm được --> H[Dùng ZERO ARTICLE Ø]
+flowchart LR
+    A(["🎯 Mạo từ (A, An, The, Ø)"]) --> B["Đã xác định rõ / Duy nhất?"]
+    B --> C["✨ Dùng THE<br/>the sun, the boy you met..."]
+    B --> D["Chưa xác định (Lần đầu)"]
+    
+    D --> E["Số ít đếm được ➔ A / AN<br/>Nguyên âm: an apple, an hour<br/>Phụ âm: a book, a university"]
+    D --> F["Số nhiều / Không đếm được<br/>➔ DÙNG ZERO ARTICLE Ø"]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a,font-weight:bold
+    style C fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,font-weight:bold
+    style D fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a,font-weight:bold
+    style E fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f,font-weight:bold
+    style F fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d,font-weight:bold
 ```
 
 ---
 
 ## II. QUY TẮC SỬ DỤNG MẠO TỪ BẤT ĐỊNH (A / AN) & CÁC BẪY PHIÊN ÂM
 
-> [!RED] **BẪY KINH ĐIỂN CỦA "A" VÀ "AN": XÉT THEO ÂM THANH (IPA), KHÔNG XÉT THEO CHỮ CÁI!**
+> [!RED] **LƯU Ý QUAN TRỌNG KHI DÙNG "A" VÀ "AN": XÉT THEO ÂM THANH (IPA), KHÔNG XÉT THEO CHỮ CÁI!**
 > - Dùng **`AN`** trước danh từ bắt đầu bằng một **NGUYÊN ÂM THEO PHIÊN ÂM IPA** (`/æ/, /e/, /ɪ/, /ɒ/, /ʌ/`...):
 >   - *an hour* /ˈaʊ.ər/ *(chữ "h" câm, bắt đầu bằng nguyên âm /aʊ/)*.
 >   - *an honest person* /ˈɒn.ɪst/ *(chữ "h" câm, bắt đầu bằng nguyên âm /ɒ/)*.

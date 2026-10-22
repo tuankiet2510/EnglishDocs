@@ -1,0 +1,561 @@
+/* ==========================================================================
+   STUDY4 EDTECH DESIGN SYSTEM FOR VITEPRESS
+   High-contrast, elegant typography, interactive card components
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Outfit:wght@500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap');
+
+:root {
+  /* Font Families */
+  --vp-font-family-base: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --vp-font-family-mono: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Brand Palette - Modern Royal Blue & Emerald (Study4 Style) */
+  --vp-c-brand-1: #2563eb;
+  --vp-c-brand-2: #1d4ed8;
+  --vp-c-brand-3: #1e40af;
+  --vp-c-brand-soft: rgba(37, 99, 235, 0.1);
+
+  /* Semantic Highlights */
+  --ed-blue-bg: #eff6ff;
+  --ed-blue-border: #3b82f6;
+  --ed-blue-text: #1e40af;
+
+  --ed-green-bg: #f0fdf4;
+  --ed-green-border: #10b981;
+  --ed-green-text: #065f46;
+
+  --ed-red-bg: #fef2f2;
+  --ed-red-border: #ef4444;
+  --ed-red-text: #991b1b;
+
+  --ed-amber-bg: #fffbeb;
+  --ed-amber-border: #f59e0b;
+  --ed-amber-text: #92400e;
+}
+
+.dark {
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #60a5fa;
+  --vp-c-brand-3: #93c5fd;
+  --vp-c-brand-soft: rgba(59, 130, 246, 0.16);
+
+  --ed-blue-bg: rgba(30, 58, 138, 0.25);
+  --ed-blue-border: #3b82f6;
+  --ed-blue-text: #bfdbfe;
+
+  --ed-green-bg: rgba(6, 78, 59, 0.25);
+  --ed-green-border: #10b981;
+  --ed-green-text: #a7f3d0;
+
+  --ed-red-bg: rgba(127, 29, 29, 0.25);
+  --ed-red-border: #ef4444;
+  --ed-red-text: #fecaca;
+
+  --ed-amber-bg: rgba(120, 53, 15, 0.25);
+  --ed-amber-border: #f59e0b;
+  --ed-amber-text: #fde68a;
+}
+
+/* Headings with Outfit Font */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4 {
+  font-family: 'Outfit', var(--vp-font-family-base);
+  letter-spacing: -0.015em;
+  font-weight: 700;
+}
+
+.vp-doc h1 {
+  font-size: 2.15rem;
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, var(--vp-c-text-1) 30%, var(--vp-c-brand-1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.vp-doc h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1.5px solid var(--vp-c-divider);
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc h3 {
+  font-size: 1.22rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--vp-c-brand-1);
+}
+
+/* Text & Paragraphs */
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.75 !important;
+  font-size: 1rem !important;
+  color: var(--vp-c-text-1) !important;
+}
+
+/* IPA and Inline Code Highlighting */
+.vp-doc :not(pre) > code {
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.88em;
+  padding: 0.15em 0.45em;
+  border-radius: 6px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  border: 1px solid rgba(37, 99, 235, 0.15);
+}
+
+/* Study4 Style Tables */
+.vp-doc table {
+  width: 100% !important;
+  display: table !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-divider) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+  margin: 1.5rem 0 !important;
+}
+
+.vp-doc th {
+  background: var(--vp-c-bg-soft) !important;
+  font-weight: 700 !important;
+  color: var(--vp-c-text-1) !important;
+  padding: 0.85rem 1rem !important;
+  border-bottom: 2px solid var(--vp-c-divider) !important;
+  text-align: left;
+  font-size: 0.92rem;
+}
+
+.vp-doc td {
+  padding: 0.85rem 1rem !important;
+  border-bottom: 1px solid var(--vp-c-divider) !important;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.vp-doc tr:last-child td {
+  border-bottom: none !important;
+}
+
+.vp-doc tr:nth-child(even) {
+  background: var(--vp-c-bg-alt);
+}
+
+.vp-doc tr:hover {
+  background: var(--vp-c-brand-soft);
+}
+
+/* STUDY4 CALLOUTS (VitePress Callouts & Notion Blockquotes) */
+.vp-doc blockquote {
+  margin: 1.25rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
+  border-radius: 0 10px 10px 0;
+  color: var(--vp-c-text-1);
+  font-style: normal;
+}
+
+/* Notion-style colored callout blocks */
+.callout-blue,
+.vp-doc blockquote:has(strong:first-child:contains("BẢN CHẤT")),
+.vp-doc blockquote:has(strong:first-child:contains("QUY TẮC")) {
+  background: var(--ed-blue-bg) !important;
+  border-left: 4px solid var(--ed-blue-border) !important;
+  color: var(--ed-blue-text) !important;
+}
+
+.callout-green,
+.vp-doc blockquote:has(strong:first-child:contains("KHI NÀO")) {
+  background: var(--ed-green-bg) !important;
+  border-left: 4px solid var(--ed-green-border) !important;
+  color: var(--ed-green-text) !important;
+}
+
+.callout-red,
+.vp-doc blockquote:has(strong:first-child:contains("BẪY")),
+.vp-doc blockquote:has(strong:first-child:contains("LƯU Ý")) {
+  background: var(--ed-red-bg) !important;
+  border-left: 4px solid var(--ed-red-border) !important;
+  color: var(--ed-red-text) !important;
+}
+
+/* Details & Summary (Collapsible Accordion) */
+.vp-doc details {
+  margin: 1.25rem 0;
+  border: 1.5px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.vp-doc details[open] {
+  border-color: var(--vp-c-brand-1);
+}
+
+.vp-doc summary {
+  padding: 0.9rem 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  background: var(--vp-c-bg);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--vp-c-text-1);
+  transition: background 0.2s ease;
+}
+
+.vp-doc summary:hover {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+}
+
+.vp-doc details > :not(summary) {
+  padding: 1rem 1.25rem;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* ==========================================================================
+   WIREFRAME 3-MODULE LAYOUT (Sidebar - VPContent - Outline)
+   Flush to screen edges (24px padding), maximized width, zero dead margins
+   ========================================================================== */
+
+:root {
+  --vp-sidebar-width: 280px;
+  --vp-layout-max-width: 100vw;
+}
+
+/* --- Module 1: Left Sidebar --- */
+@media (min-width: 960px) {
+  .VPSidebar {
+    left: 0 !important;
+    width: var(--vp-sidebar-width) !important;
+    padding-left: 24px !important; /* Rìa trái 24px chuẩn wireframe */
+    padding-right: 16px !important;
+    padding-top: calc(var(--vp-nav-height) + 16px) !important;
+    box-sizing: border-box !important;
+    border-right: 1px solid var(--vp-c-divider) !important;
+    transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .VPSidebar {
+    padding-left: 24px !important;
+    width: var(--vp-sidebar-width) !important;
+  }
+}
+
+/* Collapsed Left Sidebar State */
+html.hide-sidebar .VPSidebar {
+  transform: translateX(-100%) !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+}
+
+/* --- Module 2: Center VPContent --- */
+@media (min-width: 960px) {
+  .VPContent.has-sidebar {
+    padding-left: var(--vp-sidebar-width) !important;
+    padding-right: 0 !important;
+    transition: padding-left 0.28s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .VPContent.has-sidebar {
+    padding-left: var(--vp-sidebar-width) !important;
+    padding-right: 0 !important;
+  }
+}
+
+/* Expand content leftwards when sidebar is collapsed */
+html.hide-sidebar .VPContent.has-sidebar {
+  padding-left: 0 !important;
+}
+
+.VPDoc {
+  padding: 28px 24px 96px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+@media (min-width: 960px) {
+  .VPDoc {
+    padding: 32px 32px 0 !important;
+  }
+}
+
+.VPDoc .container {
+  max-width: 100% !important;
+  margin: 0 !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  gap: 32px !important;
+}
+
+.VPDoc .content {
+  flex: 1 1 0% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  padding: 0 16px 128px !important;
+  margin: 0 !important;
+}
+
+/* Significantly increase content-container width */
+.content-container,
+.VPDoc.has-aside .content-container,
+.VPDoc:not(.has-sidebar) .content {
+  max-width: 1040px !important;
+  margin: 0 auto !important;
+  transition: max-width 0.28s ease !important;
+}
+
+/* When outline is hidden, allow even more spacious reading width */
+html.hide-aside .content-container,
+html.hide-aside .VPDoc.has-aside .content-container {
+  max-width: 1220px !important;
+}
+
+/* --- Module 3: Right Outline (Aside) --- */
+@media (min-width: 1280px) {
+  .VPDoc .aside {
+    display: block !important;
+    position: sticky !important;
+    top: calc(var(--vp-nav-height) + 24px) !important;
+    order: 2 !important;
+    flex: 0 0 256px !important;
+    width: 256px !important;
+    max-width: 256px !important;
+    padding-left: 20px !important;
+    padding-right: 24px !important; /* Rìa phải 24px chuẩn wireframe */
+    border-left: 1px solid var(--vp-c-divider) !important;
+    box-sizing: border-box !important;
+    margin: 0 0 0 auto !important;
+  }
+
+  .VPDoc .aside-container {
+    position: relative !important;
+    top: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: calc(100vh - var(--vp-nav-height) - 48px) !important;
+    overflow-y: auto !important;
+    padding-top: 4px !important;
+    scrollbar-width: thin !important;
+  }
+
+  .VPDoc .aside-curtain {
+    display: none !important;
+  }
+}
+
+/* Collapsed Aside State */
+html.hide-aside .VPDoc .aside {
+  display: none !important;
+}
+
+/* ==========================================================================
+   MERMAID DIAGRAMS - THEME HARMONIZATION & HIGH-CONTRAST ACCESSIBILITY
+   Fixes dark mode text contrast & unifies palette with Study4 design system
+   ========================================================================== */
+
+.mermaid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--vp-c-bg-soft);
+  padding: 1.5rem;
+  border-radius: 14px;
+  border: 1px solid var(--vp-c-divider);
+  margin: 1.75rem 0;
+  overflow-x: auto;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.02);
+}
+
+.mermaid svg {
+  max-width: min(100%, 750px) !important;
+  height: auto !important;
+}
+
+/* --- Dark Mode Mermaid Fixes (Matches User Screenshot & Study4 Dark Theme) --- */
+.dark .mermaid {
+  background: #0f172a !important; /* Deep navy slate matching high-end UI */
+  border-color: rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Dark Mode: Translucent glowing backgrounds for pastel nodes */
+.dark .mermaid svg [style*="#dcfce7"],
+.dark .mermaid svg [style*="#f0fdf4"],
+.dark .mermaid svg [fill="#dcfce7"],
+.dark .mermaid svg [fill="#f0fdf4"] {
+  fill: rgba(6, 78, 59, 0.55) !important;
+  stroke: #10b981 !important;
+  stroke-width: 2px !important;
+}
+
+.dark .mermaid svg [style*="#fef3c7"],
+.dark .mermaid svg [style*="#fefce8"],
+.dark .mermaid svg [fill="#fef3c7"],
+.dark .mermaid svg [fill="#fefce8"] {
+  fill: rgba(120, 53, 15, 0.55) !important;
+  stroke: #f59e0b !important;
+  stroke-width: 2px !important;
+}
+
+.dark .mermaid svg [style*="#ede9fe"],
+.dark .mermaid svg [style*="#faf5ff"],
+.dark .mermaid svg [fill="#ede9fe"],
+.dark .mermaid svg [fill="#faf5ff"] {
+  fill: rgba(88, 28, 135, 0.55) !important;
+  stroke: #a855f7 !important;
+  stroke-width: 2px !important;
+}
+
+.dark .mermaid svg [style*="#eff6ff"],
+.dark .mermaid svg [fill="#eff6ff"] {
+  fill: rgba(30, 58, 138, 0.55) !important;
+  stroke: #3b82f6 !important;
+  stroke-width: 2px !important;
+}
+
+.dark .mermaid svg [style*="#fee2e2"],
+.dark .mermaid svg [style*="#fef2f2"],
+.dark .mermaid svg [fill="#fee2e2"],
+.dark .mermaid svg [fill="#fef2f2"] {
+  fill: rgba(127, 29, 29, 0.55) !important;
+  stroke: #ef4444 !important;
+  stroke-width: 2px !important;
+}
+
+.dark .mermaid svg [style*="#f1f5f9"],
+.dark .mermaid svg [fill="#f1f5f9"] {
+  fill: rgba(30, 41, 59, 0.75) !important;
+  stroke: #64748b !important;
+  stroke-width: 1.5px !important;
+}
+
+.dark .mermaid svg [style*="#2563eb"],
+.dark .mermaid svg [fill="#2563eb"] {
+  fill: #1d4ed8 !important;
+  stroke: #60a5fa !important;
+  stroke-width: 2px !important;
+}
+
+/* Dark Mode: Text Contrast Enforcement */
+.dark .mermaid svg text,
+.dark .mermaid svg tspan,
+.dark .mermaid svg .label,
+.dark .mermaid svg .nodeLabel,
+.dark .mermaid svg span,
+.dark .mermaid svg div {
+  color: #f8fafc !important;
+  fill: #f8fafc !important;
+  font-weight: 600 !important;
+}
+
+.dark .mermaid svg .edgeLabel,
+.dark .mermaid svg .edgeLabel span {
+  background: #0f172a !important;
+  color: #94a3b8 !important;
+  fill: #94a3b8 !important;
+}
+
+.dark .mermaid svg .flowchart-link {
+  stroke: #64748b !important;
+}
+
+.dark .mermaid svg .marker {
+  fill: #64748b !important;
+  stroke: #64748b !important;
+}
+
+/* --- Light Mode Mermaid Contrast Tuning --- */
+:root:not(.dark) .mermaid svg [style*="#2563eb"] ~ .label *,
+:root:not(.dark) .mermaid svg [fill="#2563eb"] ~ .label * {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+:root:not(.dark) .mermaid svg [style*="#dcfce7"] ~ .label *,
+:root:not(.dark) .mermaid svg [fill="#dcfce7"] ~ .label * {
+  color: #14532d !important;
+  fill: #14532d !important;
+  font-weight: 700 !important;
+}
+
+:root:not(.dark) .mermaid svg [style*="#fef3c7"] ~ .label *,
+:root:not(.dark) .mermaid svg [fill="#fef3c7"] ~ .label * {
+  color: #78350f !important;
+  fill: #78350f !important;
+  font-weight: 700 !important;
+}
+
+:root:not(.dark) .mermaid svg [style*="#ede9fe"] ~ .label *,
+:root:not(.dark) .mermaid svg [fill="#ede9fe"] ~ .label * {
+  color: #4c1d95 !important;
+  fill: #4c1d95 !important;
+  font-weight: 700 !important;
+}
+
+:root:not(.dark) .mermaid svg [style*="#eff6ff"] ~ .label *,
+:root:not(.dark) .mermaid svg [fill="#eff6ff"] ~ .label * {
+  color: #1e40af !important;
+  fill: #1e40af !important;
+  font-weight: 700 !important;
+}
+
+/* Reading Passage Card */
+.reading-passage-box {
+  background: var(--vp-c-bg-soft);
+  border: 1.5px solid var(--vp-c-divider);
+  border-left: 4.5px solid var(--vp-c-brand-1);
+  padding: 1.25rem 1.6rem;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+  line-height: 1.8;
+  font-size: 0.98rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.02);
+}
+
+.passage-badge {
+  font-size: 0.76rem;
+  font-weight: 800;
+  color: var(--vp-c-brand-1);
+  letter-spacing: 0.06em;
+  margin-bottom: 0.65rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.essay-model-card {
+  background: rgba(16, 185, 129, 0.05);
+  border: 1.5px solid #10b981;
+  padding: 1.35rem 1.6rem;
+  border-radius: 14px;
+  margin: 1.5rem 0;
+  line-height: 1.8;
+}
+
+.essay-badge {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #059669;
+  margin-bottom: 0.5rem;
+}
+

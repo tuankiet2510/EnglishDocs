@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 2: MỆNH ĐỀ QUAN HỆ & RÚT GỌN MỆNH ĐỀ QUAN HỆ (RELATIVE CLAUSES MASTERY)
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Mệnh đề quan hệ (Relative Clause) bản chất là **một tính từ dài (Adjective Clause)** đứng ngay sau danh từ để miêu tả, làm rõ danh từ đó mà không cần phải ngắt thành hai câu cụt lủn. Mấu chốt ăn điểm nằm ở: **Xác định từ được thay thế (Người hay Vật? Chủ ngữ hay Tân ngữ?)** và **Kỹ thuật rút gọn 3 bước (V-ing / V3-ed / To V-inf)**.
 
 ---
@@ -8,23 +8,32 @@
 ## I. SƠ ĐỒ THUẬT TOÁN CHỌN ĐẠI TỪ QUAN HỆ TRONG 3 GIÂY
 
 ```mermaid
-flowchart TD
-    A[Xét Danh Từ Đứng Trước] --> B{Là NGƯỜI?}
-    A --> C{Là VẬT?}
-    A --> D{Chỉ NƠI CHỐN / THỜI GIAN / LÝ DO?}
-
-    B -- Đúng --> B1{Sau chỗ trống là gì?}
-    B1 -- Là Động từ (V) --> B2[Dùng WHO / THAT]
-    B1 -- Là Chủ ngữ (S + V) --> B3[Dùng WHOM / WHO / THAT]
-    B1 -- Là Danh từ sở hữu (N) --> B4[Dùng WHOSE + N]
-
-    C -- Đúng --> C1{Có sở hữu không?}
-    C1 -- Không --> C2[Dùng WHICH / THAT]
-    C1 -- Có --> C3[Dùng WHOSE / OF WHICH + N]
-
-    D -- Nơi chốn --> D1[Dùng WHERE = in/at which]
-    D -- Thời gian --> D2[Dùng WHEN = on/in/at which]
-    D -- Lý do --> D3[Dùng WHY = for which]
+flowchart LR
+    A(["🎯 Đại từ quan hệ"]) --> B["Chỉ NGƯỜI"]
+    A --> C["Chỉ VẬT"]
+    A --> D["NƠI CHỐN / THỜI GIAN"]
+    
+    B --> B1["Chủ ngữ (sau là V) ➔ WHO / THAT"]
+    B --> B2["Tân ngữ (sau là S+V) ➔ WHOM / WHO"]
+    B --> B3["Sở hữu ➔ WHOSE + N"]
+    
+    C --> C1["Chủ ngữ & Tân ngữ ➔ WHICH / THAT"]
+    C --> C2["Sở hữu ➔ WHOSE + N"]
+    
+    D --> D1["Nơi chốn ➔ WHERE (= in/at which)"]
+    D --> D2["Thời gian ➔ WHEN (= on/in which)"]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af,font-weight:bold
+    style C fill:#f0fdf4,stroke:#16a34a,stroke-width:2px,color:#166534,font-weight:bold
+    style D fill:#fefce8,stroke:#ca8a04,stroke-width:2px,color:#854d0e,font-weight:bold
+    style B1 fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
+    style B2 fill:#fef3c7,stroke:#d97706,stroke-width:1.5px,color:#78350f
+    style B3 fill:#ede9fe,stroke:#7c3aed,stroke-width:1.5px,color:#4c1d95
+    style C1 fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
+    style C2 fill:#ede9fe,stroke:#7c3aed,stroke-width:1.5px,color:#4c1d95
+    style D1 fill:#eff6ff,stroke:#3b82f6,stroke-width:1.5px,color:#1e40af
+    style D2 fill:#fef3c7,stroke:#d97706,stroke-width:1.5px,color:#78350f
 ```
 
 ---
@@ -101,7 +110,7 @@ MĐQH CẦN RÚT GỌN ─┼── BỊ ĐỘNG (Passive)   ──► Rút gọ
 
 ---
 
-## V. 3 BẪY KINH ĐIỂN CẦN TRÁNH TRONG ĐỀ THI VÀO 10 (VIETLISH TRAPS)
+## V. 3 LỖI SAI PHỔ BIẾN CẦN TRÁNH TRONG ĐỀ THI VÀO 10 (VIETLISH TRAPS)
 
 > [!RED] **BẪY 1: PHÂN BIỆT `WHERE` VS. `WHICH` KHI ĐỨNG SAU NƠI CHỐN**
 > - Dùng **`WHERE`** khi nơi chốn đóng vai trò **trạng từ** (sau đó là mệnh đề hoàn chỉnh S + V, không thiếu tân ngữ).

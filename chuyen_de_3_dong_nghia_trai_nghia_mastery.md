@@ -1,21 +1,27 @@
 # CHUYÊN ĐỀ 3: CẨM NANG TỪ ĐỒNG NGHĨA & TRÁI NGHĨA (SYNONYMS & ANTONYMS MASTERY)
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Dạng bài tìm từ **Đồng nghĩa (`CLOSEST IN MEANING`)** và **Trái nghĩa (`OPPOSITE IN MEANING`)** chiếm ít nhất **4 câu (1.0 điểm)** trong đề thi tuyển sinh vào 10.
 > Bạn không cần biết nghĩa của mọi từ vựng lạ trong đề; bí quyết nằm ở **Kỹ thuật đoán nghĩa theo ngữ cảnh (Context Clues)** kết hợp với việc kiểm tra các **Tiền tố phủ định (`un-, in-, dis-, im-`)** và tránh chiếc bẫy tâm lý *"Đọc nhầm yêu cầu đề bài"*.
 
 ---
 
-## I. SƠ ĐỒ THUẬT TOÁN 3 BƯỚC ĂN TRỌN ĐIỂM DẠNG BÀI CLOSEST / OPPOSITE
+## I. QUY TRÌNH 3 BƯỚC LÀM DẠNG BÀI ĐỒNG NGHĨA - TRÁI NGHĨA
 
 ```mermaid
-flowchart TD
-    A[Đọc Đề Bài] --> B{Đề yêu cầu CLOSEST hay OPPOSITE?}
-    B -- CLOSEST --> C1[Khoanh tròn chữ CLOSEST -> Tìm từ CÙNG DẤU / CÙNG NGHĨA]
-    B -- OPPOSITE --> C2[Khoanh tròn chữ OPPOSITE -> Tìm từ NGƯỢC DẤU / TRÁI NGHĨA]
-    C1 --> D[Đọc câu chứa từ gạch chân -> Đoán sắc thái: Tích cực (+) hay Tiêu cực (-)?]
-    C2 --> D
-    D --> E[Lắp 4 phương án A, B, C, D vào ngữ cảnh câu -> Chọn phương án hợp logic nhất]
+flowchart LR
+    A(["🎯 Từ Đồng nghĩa & Trái nghĩa"]) --> B["Yêu cầu đề bài"]
+    B --> C["✨ CLOSEST (Đồng nghĩa)<br/>Tìm từ CÙNG NGHĨA / CÙNG DẤU (+)"]
+    B --> D["⚡ OPPOSITE (Trái nghĩa)<br/>Tìm từ NGƯỢC NGHĨA / NGƯỢC DẤU (-)"]
+    
+    C --> E["Đoán ngữ cảnh câu ➔ Thay thế 4 đáp án chọn logic nhất"]
+    D --> E
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a,font-weight:bold
+    style C fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,font-weight:bold
+    style D fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d,font-weight:bold
+    style E fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af,font-weight:bold
 ```
 
 ---

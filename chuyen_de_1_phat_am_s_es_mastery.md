@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 1: CÁCH PHÁT ÂM ĐUÔI "S / ES" BẰNG CÂU THẦN CHÚ ÔN THI VÀO 10
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Đuôi **`-s`** hoặc **`-es`** khi thêm vào danh từ số nhiều hoặc động từ ngôi thứ 3 số ít sẽ có 3 cách phát âm, hoàn toàn phụ thuộc vào **Âm thanh kết thúc (Ending Sound)** của từ gốc:
 > - **Âm gió (Sibilants):** Tạo ra tiếng xì, rít ➔ Phát âm là **/ɪz/** để dễ phát âm, không bị nghẹn hơi.
 > - **Âm vô thanh (Voiceless):** Không rung cổ họng ➔ Phát âm là **/s/** (vô thanh).
@@ -11,21 +11,26 @@
 ## I. SƠ ĐỒ THUẬT TOÁN 3 BƯỚC PHÂN LOẠI PHÁT ÂM ĐUÔI -S / -ES
 
 ```mermaid
-flowchart TD
-    A[Từ thêm đuôi -S hoặc -ES] --> B{Âm cuối là âm gió: s, z, ʃ, tʃ, ʒ, dʒ?}
-    B -- Đúng --> C[Đọc là /ɪz/: Thần chú SÁU CHẠY XE SH ZUI ZẺ]
-    B -- Không --> D{Âm cuối là âm vô thanh: p, k, f, t, θ?}
-    D -- Đúng --> E[Đọc là /s/: Thần chú THỜI PHONG KIẾN PHƯƠNG TÂY]
-    D -- Không --> F[Đọc là /z/: CÁC ÂM HỮU THANH & NGUYÊN ÂM CÒN LẠI]
+flowchart LR
+    A(["🎯 Đuôi -S / -ES"]) --> B["Âm cuối từ"]
+    B --> C["✨ Đọc là /ɪz/<br/>Âm gió: /s, z, ʃ, tʃ, ʒ, dʒ/<br/>SÁU CHẠY XE SH ZUI ZẺ"]
+    B --> D["⚡ Đọc là /s/<br/>Vô thanh: /p, k, f, t, θ/<br/>THỜI PHONG KIẾN PHƯƠNG TÂY"]
+    B --> E["🌱 Đọc là /z/<br/>Hữu thanh & Nguyên âm<br/>CÁC ÂM CÒN LẠI"]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#f1f5f9,stroke:#64748b,stroke-width:1.5px,color:#0f172a,font-weight:bold
+    style C fill:#ede9fe,stroke:#7c3aed,stroke-width:2px,color:#4c1d95,font-weight:bold
+    style D fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,font-weight:bold
+    style E fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af,font-weight:bold
 ```
 
 ---
 
-## II. 3 QUY TẮC VÀNG KÈM BỘ THẦN CHÚ TIẾNG VIỆT ĐỘC QUYỀN
+## II. 3 QUY TẮC VÀNG KÈM MẸO GHI NHỚ BẰNG TIẾNG VIỆT
 
 ### 1. Quy tắc 1: Phát âm là `/s/` (Thần chú: "THỜI PHONG KIẾN PHƯƠNG TÂY")
 - **Dấu hiệu:** Tận cùng là các âm vô thanh **/p, k, f, t, θ/** (Chữ cái thường gặp: *p, k, gh, ph, t, th*).
-- **Thần chú ghi nhớ độc quyền:**
+- **Mẹo ghi nhớ nhanh:**
   > 💡 **"THỜI PHONG KIẾN PHƯƠNG TÂY"**
   > (hoặc: **"Thảo Phải Khao Phở Thúy"**)
   >
@@ -39,7 +44,7 @@ flowchart TD
 
 ### 2. Quy tắc 2: Phát âm là `/ɪz/` (Thần chú: "SÁU CHẠY XE SH ZUI ZẺ")
 - **Dấu hiệu:** Tận cùng là các âm gió (sibilants) **/s, z, ʃ, tʃ, ʒ, dʒ/** (Chữ cái tận cùng: *s, ss, ch, sh, x, z, ge, ce*).
-- **Thần chú ghi nhớ độc quyền:**
+- **Mẹo ghi nhớ nhanh:**
   > 💡 **"SÁU CHẠY XE SH ZUI ZẺ"**
   > (hoặc: **"Sông Sáng Chói Sóng Xô Giáp Ghềnh"**)
   >

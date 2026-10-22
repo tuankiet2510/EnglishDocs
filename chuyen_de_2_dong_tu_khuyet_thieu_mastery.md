@@ -1,6 +1,6 @@
 # CHUYÊN ĐỀ 2: ĐỘNG TỪ KHUYẾT THIẾU (MODAL VERBS MASTERY) ÔN THI VÀO 10
 
-> [!BLUE] **BẢN CHẤT CỐT LÕI (FEYNMAN CORE):**
+> [!BLUE] **BẢN CHẤT VÀ NGUYÊN TẮC CỐT LÕI:**
 > Động từ khuyết thiếu (Modal Verbs: *can, could, may, might, must, should, have to, needn't*) không diễn tả một hành động vật lý cụ thể, mà dùng để biểu thị **thái độ của người nói** đối với hành động đó: **Mức độ chắc chắn**, **Khả năng**, **Sự cho phép**, **Sự bắt buộc** hoặc **Lời khuyên**.
 > Nguyên tắc ngữ pháp bất biến: **`S + MODAL VERB + V-INF (nguyên mẫu không chia)`**.
 
@@ -9,11 +9,17 @@
 ## I. SƠ ĐỒ PHÂN LOẠI CẤP ĐỘ NGHĨA CỦA MODAL VERBS
 
 ```mermaid
-flowchart TD
-    A[MỤC ĐÍCH DIỄN ĐẠT CỦA CÂU] --> B[Khả năng & Xin phép: CAN / COULD / MAY / MIGHT]
-    A --> C[Lời khuyên & Đề xuất: SHOULD / OUGHT TO / HAD BETTER]
-    A --> D[Bắt buộc & Cấm đoán: MUST / HAVE TO / MUSTN'T]
-    A --> E[Không cần thiết: NEEDN'T / DON'T HAVE TO]
+flowchart LR
+    A(["🎯 Modal Verbs"]) --> B["Khả năng & Xin phép<br/>CAN / COULD / MAY"]
+    A --> C["Lời khuyên & Đề xuất<br/>SHOULD / OUGHT TO / HAD BETTER"]
+    A --> D["Bắt buộc & Cấm đoán<br/>MUST (phải) / MUSTN'T (cấm)"]
+    A --> E["Không cần thiết<br/>NEEDN'T / DON'T HAVE TO"]
+    
+    style A fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff,font-weight:bold
+    style B fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af,font-weight:bold
+    style C fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d,font-weight:bold
+    style D fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#7f1d1d,font-weight:bold
+    style E fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#78350f,font-weight:bold
 ```
 
 ---
